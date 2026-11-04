@@ -1,0 +1,30 @@
+# Credenciales y variables de entorno
+.env
+*.env
+.env.*
+!.env.example
+
+# Instrucciones y archivos Markdown solicitados
+instrucciones_actividad10.md
+*.md
+!README.md
+
+# Entornos virtuales y caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# IDEs y editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs y depuración
+*.log
+
